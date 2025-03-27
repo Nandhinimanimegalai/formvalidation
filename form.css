@@ -1,0 +1,53 @@
+.form-control ,.form-select{
+    background-color: #f7f7f7 !important;
+    border-color: #f7f7f7;
+    font-size: 14px;
+    font-weight: 600px;
+    border:1px solid #ced4da;
+    border-style: none;
+}
+.border-danger{
+    border:1px solid red;
+}
+
+
+input.form-control:focus {
+    border-bottom: 2px solid  #284e91; 
+    box-shadow: none; 
+}
+#register{
+    background-color: #284e91;
+    color:white;
+}
+.dropdown{
+   
+    position: absolute;
+    width: 23%;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: none;
+    max-height: 150px;
+    overflow-y: auto;
+    
+}
+.dropdown-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-list li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.dropdown-list li:hover {
+    background: #2c5a85;
+    color: #fff;
+}
+.bi{
+    
+    color:  #2c5a85;
+    border-radius: 50%;
+}
